@@ -62,7 +62,7 @@ function Project() {
                   </Link>
                 </div>
               </div>
-              <div className="flex gap-4 text-[14px] font-medium">
+              <div className="flex flex-wrap gap-4 text-[14px] font-medium">
                 <div className="flex items-center gap-1 rounded bg-[rgba(137,178,250,0.16)] px-2  text-[#38bdf8]">
                   <FaReact />
                   React
@@ -113,7 +113,7 @@ function Project() {
                   </Link>
                 </div>
               </div>
-              <div className="flex gap-4 text-[14px] font-medium">
+              <div className="flex flex-wrap gap-4 text-[14px] font-medium">
                 <div className="flex items-center gap-1 rounded bg-[rgba(137,178,250,0.16)] px-2  text-[#38bdf8]">
                   <FaReact />
                   React
@@ -178,7 +178,7 @@ function Project() {
                   </Link>
                 </div>
               </div>
-              <div className="flex gap-4 text-[14px] font-medium">
+              <div className="flex flex-wrap gap-4 text-[14px] font-medium">
                 <div className="flex items-center gap-1 rounded bg-[rgba(103,103,103,0.16)] px-2  text-[#ffff]">
                   <TbBrandNextjs />
                   Next.js
