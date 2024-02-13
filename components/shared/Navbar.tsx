@@ -45,17 +45,11 @@ function Navbar() {
           <SheetContent className=" light-border bg-black text-white">
             <SheetHeader className="">
               <SheetTitle className="w-fit pb-4">
-                <div className="flex cursor-pointer items-center">
-                  <span className="text-[35px] font-bold text-textSecondary">
-                    &#123;
-                  </span>
-                  <p className="px-[.5px] text-[32px] font-bold text-white">
-                    A
-                  </p>
-                  <span className="text-[35px] font-bold text-textSecondary">
-                    &#125;
-                  </span>
-                </div>
+                <Link href="/" className="flex cursor-pointer items-center">
+                  <span className="logo-icon-text">&lt;</span>
+                  <p className="px-[.5px] text-[32px] font-bold">aD</p>
+                  <span className="logo-icon-text">&#47;&gt;</span>
+                </Link>
               </SheetTitle>
             </SheetHeader>
             <div className="mt-10 flex flex-col  gap-5">
