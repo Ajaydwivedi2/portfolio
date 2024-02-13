@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { FaExternalLinkAlt, FaReact } from "react-icons/fa";
 import { FaGithub, FaMagnifyingGlass } from "react-icons/fa6";
 import {
@@ -19,8 +18,8 @@ function Projects() {
           Projects
         </h1>
         <p className="text-[14px] md:text-[18px] ">
-          I love building projects and practice my engineering skills, here's an
-          archive of things that I've worked on.
+          I love building projects and practice my engineering skills,
+          here&rsquo;s an archive of things that I&rsquo;ve worked on.
         </p>
         <div className="flex h-[44px] w-full max-w-sm items-center justify-between rounded-md border-[.5px] border-dark600 px-4">
           <input
