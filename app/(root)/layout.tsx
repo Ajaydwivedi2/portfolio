@@ -2,10 +2,10 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/shared/Navbar";
 import React from "react";
 
-function layout({ children }: { children: React.ReactNode }) {
+function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <div className=" px-6 pt-[90px] md:px-20 md:pt-[180px] lg:px-24 xl:px-32">
+      <div className=" px-6 pt-[90px] md:px-20 md:pt-[180px] lg:px-24 xl:px-36">
         <Navbar />
         {children}
         <Footer />
@@ -14,4 +14,4 @@ function layout({ children }: { children: React.ReactNode }) {
   );
 }
 
-export default layout;
+export default Layout;

@@ -2,6 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: black;
+  color: white;
+}
+
+@layer utilities {
+  .light-border {
+    @apply border-b-[.5px]  border-dark600;
+  }
+
+  .logo-icon-text {
+    @apply text-[35px] font-bold text-textSecondary;
+  }
+
+  .transition-ease {
+    @apply transition duration-300 ease-in-out;
+  }
+
+  .button-bg-hover {
+    @apply bg-dark700 transition-ease hover:bg-gray100;
+  }
+}
+
+/* Scrollbar */
+
 *::-webkit-scrollbar {
   width: 5px;
   height: 3px;
@@ -19,15 +44,4 @@
 
 *::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
