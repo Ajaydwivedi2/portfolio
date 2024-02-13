@@ -14,11 +14,11 @@ import { Button } from "../ui/button";
 function Navbar() {
   return (
     <div className="fixed left-0 top-0 z-20 flex h-[70px] w-full items-center justify-between border-b-[.5px]  border-navBorder bg-black px-6 md:pl-12 md:pr-16">
-      <div className="flex cursor-pointer items-center">
+      <Link href="/" className="flex cursor-pointer items-center">
         <span className="text-[35px] font-bold text-textSecondary">&#123;</span>
         <p className="px-[.5px] text-[32px] font-bold">A</p>
         <span className="text-[35px] font-bold text-textSecondary">&#125;</span>
-      </div>
+      </Link>
       <div className="flex gap-14 max-sm:hidden">
         <div className="">
           <Link

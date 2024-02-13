@@ -19,17 +19,23 @@ function About() {
             since an early age, and been passionate about it ever since.
           </p>
           <p>
-            I really liked to build stuff using no-code tools back in 2010, and
-            from that, I explored how to code myself, fast-forward to today, I
-            do programming in various languages and technologies, and had the
-            privilege to worked in a Recruitment Company and a SaaS Company I'm
-            interested in building something awesome with code and automate
-            tasks with code, currently focused on Web & Mobile Development, Open
-            Source and Competitive Programming
+            I really liked to build stuff using{" "}
+            <span className="text-button1">no-code tools</span> back in 2010,
+            and from that, I explored how to code myself, fast-forward to today,
+            I do programming in various languages and technologies, and had the
+            privilege to worked in a{" "}
+            <span className="text-button1">Recruitment Company</span> and a{" "}
+            <span className="text-button1">SaaS Company</span> I'm interested in
+            building something awesome with code and automate tasks with code,
+            currently focused on
+            <span className="text-button1">
+              Web & Mobile Development, Open Source
+            </span>{" "}
+            and <span className="text-button1">Competitive Programming</span>
           </p>
           <p>
-            When I'm not coding I play games with my friends, watch some show on
-            Netflix, or if the weather's good, play basketball! 🏀
+            When I'm not coding I love to explore new things on the internet and
+            meet new people around the world.
           </p>
         </div>
         <div className=" relative flex flex-1 items-start justify-center ">

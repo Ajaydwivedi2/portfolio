@@ -49,19 +49,28 @@ function Header() {
         </div>
         <div className="flex gap-5 ">
           <Button className="bg-borderColor text-[14px] transition  duration-300 ease-in-out hover:bg-hoverColor md:text-[16px]">
-            <Link href="/" className="flex items-center gap-3 ">
+            <Link
+              href="https://github.com/Ajaydwivedi2"
+              className="flex items-center gap-3 "
+            >
               <FaGithub className="fill-button1" />
               Github
             </Link>
           </Button>
           <Button className="bg-borderColor text-[14px] transition  duration-300 ease-in-out hover:bg-hoverColor md:text-[16px]">
-            <Link href="/" className="flex items-center gap-3">
+            <Link
+              href="https://linkedin.com/in/ajaydwivedi2"
+              className="flex items-center gap-3"
+            >
               <FaLinkedin className="fill-button1" />
               Linkedin
             </Link>{" "}
           </Button>
           <Button className="bg-borderColor text-[14px] transition  duration-300 ease-in-out hover:bg-hoverColor max-xs:hidden md:text-[16px]">
-            <Link href="/" className="flex items-center gap-3">
+            <Link
+              href="mailto:ajaydwivedi873@gmail.com"
+              className="flex items-center gap-3"
+            >
               <FaEnvelope className="fill-button1" /> Email
             </Link>
           </Button>

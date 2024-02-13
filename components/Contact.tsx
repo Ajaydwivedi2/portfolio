@@ -33,7 +33,10 @@ function Contact() {
             </Link>
           </Button>
           <Button className="bg-borderColor text-[14px] transition  duration-300 ease-in-out hover:bg-hoverColor md:text-[16px]">
-            <Link href="/" className="flex items-center gap-3">
+            <Link
+              href="mailto:ajaydwivedi873@gmail.com"
+              className="flex items-center gap-3"
+            >
               <FaEnvelope className="fill-button1" />
               Email
             </Link>
