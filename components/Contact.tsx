@@ -11,7 +11,7 @@ function Contact() {
 
         <div className="text-center text-[17px] text-textSecondary ">
           <p className="">
-            I&rsquo;m currently specializing in
+            I&rsquo;m currently specializing in{" "}
             <span className="text-button1 max-md:hidden">
               Front-end Development
             </span>
