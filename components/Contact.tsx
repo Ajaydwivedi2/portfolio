@@ -35,7 +35,7 @@ function Contact() {
             Email
           </CustomButton>
 
-          <CustomButton href="/">
+          <CustomButton href="https://drive.google.com/file/d/1DOKWqm5r-qZhDECkNeUFozQDtbdpF5vR/view">
             <IoNewspaperOutline className="fill-button1" />
             Resume
           </CustomButton>
