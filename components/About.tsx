@@ -1,11 +1,17 @@
 import Image from "next/image";
 import React from "react";
 import { MdElectricBolt } from "react-icons/md";
+import { FaHtml5, FaCss3, FaSass, FaReact } from "react-icons/fa6";
+
+import { SiTailwindcss, SiTypescript } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
+
+import { TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
+import { FaGitAlt, FaGithubSquare } from "react-icons/fa";
 
 function About() {
   return (
     <>
-      {" "}
       <div className=" my-28 flex flex-col gap-20  md:mt-52 md:flex-row">
         <div className="flex flex-1 flex-col gap-5 text-[17px] text-textSecondary">
           <div className="flex items-center">
@@ -15,27 +21,50 @@ function About() {
             <h3 className="text-[28px] font-bold text-white">About Me</h3>
           </div>
           <p>
-            Hey! I&rsquo;m Ajay Dwivedi, I&rsquo;ve been close to a computer
-            since an early age, and been passionate about it ever since.
+            Hello there! I&rsquo;m Ajay Dwivedi, and my journey with computers
+            began at a young age, igniting a lifelong passion.
           </p>
           <p>
-            I really liked to build stuff using{" "}
-            <span className="text-button1">no-code tools</span> back in 2010,
-            and from that, I explored how to code myself, fast-forward to today,
-            I do programming in various languages and technologies, and had the
-            privilege to worked in a{" "}
-            <span className="text-button1">Recruitment Company</span> and a{" "}
-            <span className="text-button1">SaaS Company</span> I&rsquo;m
-            interested in building something awesome with code and automate
-            tasks with code, currently focused on
+            Building transformative tools that positively impact lives is what
+            truly drives me. My
+            <span className="text-button1"> developer journey</span> kicked off
+            with a YouTube tutorial, leading me to immerse myself in numerous
+            enriching courses offered by esteemed instructors worldwide. Along
+            the way, I&rsquo;ve acquired a diverse skill set in
+            <span className="text-button1"> frontend development</span>,
+            spanning from HTML to Next.js. <br />
+            Here&rsquo;s a glimpse of my tech stack:
             <span className="text-button1">
-              Web & Mobile Development, Open Source
+              {" "}
+              <FaHtml5 className="inline-block px-[1px] " /> HTML,{" "}
+              <FaCss3 className="inline-block px-[1px]" /> CSS,{" "}
+              <SiTailwindcss className="inline-block px-[1px]" /> Tailwind CSS,{" "}
+              <FaSass className="inline-block px-[1px]" /> Sass, Shadcn/UI,{" "}
+              <IoLogoJavascript className="inline-block px-[1px]" /> JavaScript,{" "}
+              <SiTypescript className="inline-block px-[1px]" /> TypeScript,{" "}
+              <FaReact className="inline-block px-[1px]" /> React.js,{" "}
+              <TbBrandNextjs className="inline-block px-[1px]" /> Next.js{" "}
+            </span>
+            and Version Control with{" "}
+            <span className="text-button1">
+              <FaGitAlt className="inline-block px-[1px]" /> Git{" "}
+            </span>
+            and{" "}
+            <span className="text-button1">
+              <FaGithubSquare className="inline-block px-[1px]" /> GitHub.
             </span>{" "}
-            and <span className="text-button1">Competitive Programming</span>
+            <br />
+            Currently, I&rsquo;m delving into the realm of{" "}
+            <span className="text-orange100">
+              {" "}
+              <TbBrandReactNative className="inline-block " /> React Native
+            </span>
+            .
           </p>
           <p>
-            When I&rsquo;m not coding I love to explore new things on the
-            internet and meet new people around the world.
+            When I&rsquo;m not immersed in code, you&rsquo;ll find me exploring
+            the vast expanse of the internet and connecting with fellow
+            enthusiasts from across the globe.
           </p>
         </div>
         <div className=" relative flex flex-1 items-start justify-center ">

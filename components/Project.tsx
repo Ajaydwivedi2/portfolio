@@ -210,9 +210,14 @@ function Project() {
               </div>
             </div>
             <p className="text-textSecondary">
-              A web app to analyze whether an opinion on specific topic is
-              positive or negative based on recent tweets using Natural Language
-              Processing concept called Sentiment Analysis.
+              Introducing Dev Overflow, a modern reinterpretation of
+              StackOverflow enriched with innovative features. Crafted from a
+              personal drive to refine skills, this project reimagines the
+              renowned platform with enhanced user-friendliness and additional
+              functionalities. Through its development journey, valuable
+              insights were gained, spanning user authentication via Clerk,
+              integration of MongoDB for data storage, and the adoption of
+              TailwindCSS for intuitive interfaces.
             </p>
           </div>
         </div>
